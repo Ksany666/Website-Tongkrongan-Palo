@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0b0f1a;
+    color: #e4e6eb;
+}
+
+header {
+    background: #01061d;
+    padding: 15px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    -webkit-text-stroke: 2px #5865F2;
+    text-shadow: 0 0 10px #5865F2;
+}
+
+nav a {
+    color: #9ca3af;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #5865F2;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+}
+
+.banner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   
+    object-position: center 80%;
+    filter: brightness(0.5);
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.hero-text h2 {
+    font-size: 40px;
+}
+
+.hero-text p {
+    color: #ddd;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: #111827;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #1f2937;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card h3 {
+    padding: 10px;
+    margin: 0;
+    color: #5865F2;
+}
+
+.card p {
+    padding: 0 10px 10px;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 70%;
+    background: #111827;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #1f2937;
+    text-align: center;
+}
+
+th {
+    background: #5865F2;
+}
+
+form {
+    text-align: center;
+    margin: 20px;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 8px;
+    background: #1f2937;
+    border: none;
+    color: white;
+}
+
+button {
+    background: #5865F2;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+#discord {
+    text-align: center;
+    padding: 40px;
+}
+
+.discord-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #5865F2;
+    margin: 15px 0;
+}
+
+.discord-btn {
+    background: #5865F2;
+    padding: 12px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #020617;
+}
